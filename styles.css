@@ -10,7 +10,6 @@
     justify-content: center; 
     margin-top: 10.0em;
     margin-bottom: 5.0em;
-    
     }
 
     .searchbar{
@@ -123,6 +122,9 @@
             margin-top: 3.0em;
             margin-bottom: 2.0em;
         }
+        #resim{
+            max-width: 250px;
+        }
         .searchbar:hover > .search_input{
             padding: 0 0px;
             width: 300px;
@@ -148,6 +150,8 @@
         
         .profile_image{
             margin:8px 8px;
+            max-width: 117px;
+            max-height: 117px;
         }
     
         .title{

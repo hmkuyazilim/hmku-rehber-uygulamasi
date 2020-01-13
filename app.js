@@ -1,8 +1,8 @@
 const title=document.querySelectorAll('.title');
 const mail=document.querySelectorAll('.mail');
 const input=document.querySelectorAll('.search_input');
+const logo=document.querySelector('#resim');
 
-//console.log(Array.from(title));
 
 let titleArray=Array.from(title);
 
@@ -24,6 +24,18 @@ mailArray.forEach((m)=>{
      m.classList.add('mailSmall');
     }
  });
+
+
+ 
+ let mobilEkran=window.matchMedia("(max-width:576px)");
+
+ if(mobilEkran.matches){
+
+    logo.setAttribute("src", "./assets/logo-mobil.png");
+ }else{
+    logo.setAttribute("src", "./assets/logo.png");
+ }
+ 
 
 
 
