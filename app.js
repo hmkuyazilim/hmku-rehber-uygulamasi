@@ -1,5 +1,6 @@
 const title=document.querySelectorAll('.title');
 const mail=document.querySelectorAll('.mail');
+const input=document.querySelectorAll('.search_input');
 
 //console.log(Array.from(title));
 
@@ -23,4 +24,6 @@ mailArray.forEach((m)=>{
      m.classList.add('mailSmall');
     }
  });
+
+
 

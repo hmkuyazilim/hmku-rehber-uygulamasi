@@ -10,6 +10,7 @@
     justify-content: center; 
     margin-top: 10.0em;
     margin-bottom: 5.0em;
+    
     }
 
     .searchbar{
@@ -33,7 +34,7 @@
     }
 
     .searchbar:hover > .search_input{
-    padding: 0 10px;
+    padding: 0 0px;
     width: 350px;
     caret-color:red;
     color:grey;
@@ -68,7 +69,7 @@
     }
     
     .profile_image{
-        margin:12px 8px;
+        margin:8px 8px;
     }
 
     .title{
@@ -116,9 +117,27 @@
     
 
     @media only screen and (max-width:576px){
+        .logo{
+            text-align: center; 
+            justify-content: center; 
+            margin-top: 3.0em;
+            margin-bottom: 2.0em;
+        }
+        .searchbar:hover > .search_input{
+            padding: 0 0px;
+            width: 300px;
+            caret-color:red;
+            color:grey;
+            transition: width 0.4s linear;
+        }
+
+        .searchbar:hover > .search_icon{
+            display: none;
+        }
+
         .card-margin{
             margin-bottom: 5px;
-            margin-left: 20px;
+            margin-left: 8px;
         }
 
         .card-border{
@@ -128,7 +147,7 @@
         }
         
         .profile_image{
-            margin:12px 8px;
+            margin:8px 8px;
         }
     
         .title{
@@ -160,7 +179,7 @@
     
         .mail{
             margin-top:-20px;
-            font-size:14pt;
+            font-size:12pt;
         }
     
         .mailSmall{
