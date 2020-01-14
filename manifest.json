@@ -1,0 +1,47 @@
+{
+    "name":"Hatay Mustafa Kemal Üniversitesi Telefon Rehberi",
+    "short_name":"HMKU Rehber Uygulaması",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#014a83",
+    "theme_color":"#014a83",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"/assets/icons/icon.png",
+            "type":"image/png",
+            "sizes":"72x72"
+        },
+        {
+            "src":"/assets/icons/icon-96x96.png",
+            "type":"image/png",
+            "sizes":"96x96"
+        },
+        {
+            "src":"/assets/icons/icon-128x128.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        },
+        {
+            "src":"/assets/icons/icon-144x144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"/assets/icons/icon-192x192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"/assets/icons/icon-384x384.png",
+            "type":"image/png",
+            "sizes":"384x384"
+        },
+        {
+            "src":"/assets/icons/icon-512x512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+
+}
