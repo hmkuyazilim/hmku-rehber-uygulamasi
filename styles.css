@@ -113,9 +113,171 @@
         color: #014a83;
     }
 
-    
+    @media screen and (max-width: 1200px){
+        .logo{
+            text-align: center; 
+            justify-content: center; 
+            margin-top: 5.0em;
+            margin-bottom: 2.0em;
+        }
+        #resim{
+            max-width: 4000px;
+        }
+        .searchbar:hover > .search_input{
+            padding: 0 0px;
+            width: 300px;
+            caret-color:red;
+            color:grey;
+            transition: width 0.4s linear;
+        }
 
-    @media only screen and (max-width:576px){
+        .searchbar:hover > .search_icon{
+            display: none;
+        }
+
+        .card-margin{
+            margin-bottom: 5px;
+        }
+
+        .card-border{
+            border-radius: 10cm;
+            max-height:140px;
+            line-height: 1.3;
+        }
+        
+        .profile_image{
+            margin:25px 8px;
+            max-width: 117px;
+            max-height: 117px;
+        }
+    
+        .title{
+            font-weight: 700; 
+            font-size: 16pt; 
+            margin-bottom: -0.25rem; 
+            color: #014a83;  
+        }
+    
+        .titleSmall{
+            font-weight: 700; 
+            font-size: 10pt; 
+            margin-bottom: -0.25rem; 
+            color: #014a83;  
+        }
+    
+        .birim{
+            line-height: 0.9;
+        }
+    
+        .telefon{
+            font-size:14pt;
+            margin-top: 10px;
+        }
+    
+        .dahili{
+            font-weight: bold;
+            font-size: 11pt;
+        }
+    
+        .mail{
+            margin-top:-10px;
+            font-size:12pt;
+        }
+    
+        .mailSmall{
+            margin-top:-15px;
+            font-size:10pt;
+        }
+    
+        .icon{
+            margin-right:10px;
+            color: #014a83;
+        }
+    }
+
+    @media screen and (max-width: 767px){
+        .logo{
+            text-align: center; 
+            justify-content: center; 
+            margin-top: 5.0em;
+            margin-bottom: 2.0em;
+        }
+        #resim{
+            max-width: 150px;
+        }
+        .searchbar:hover > .search_input{
+            padding: 0 0px;
+            width: 300px;
+            caret-color:red;
+            color:grey;
+            transition: width 0.4s linear;
+        }
+
+        .searchbar:hover > .search_icon{
+            display: none;
+        }
+
+        .card-margin{
+            margin-bottom: 5px;
+        }
+
+        .card-border{
+            border-radius: 10cm;
+            max-height:140px;
+            line-height: 1.3;
+        }
+        
+        .profile_image{
+            margin:25px 8px;
+            max-width: 117px;
+            max-height: 117px;
+        }
+    
+        .title{
+            font-weight: 700; 
+            font-size: 16pt; 
+            margin-bottom: -0.25rem; 
+            color: #014a83;  
+        }
+    
+        .titleSmall{
+            font-weight: 700; 
+            font-size: 10pt; 
+            margin-bottom: -0.25rem; 
+            color: #014a83;  
+        }
+    
+        .birim{
+            line-height: 0.9;
+        }
+    
+        .telefon{
+            font-size:14pt;
+            margin-top: 10px;
+        }
+    
+        .dahili{
+            font-weight: bold;
+            font-size: 11pt;
+        }
+    
+        .mail{
+            margin-top:-10px;
+            font-size:12pt;
+        }
+    
+        .mailSmall{
+            margin-top:-15px;
+            font-size:10pt;
+        }
+    
+        .icon{
+            margin-right:10px;
+            color: #014a83;
+        }
+    }
+
+    @media screen and (max-width:576px){
         .logo{
             text-align: center; 
             justify-content: center; 
@@ -196,88 +358,7 @@
         }
     }
 
-    @media only screen and (max-width:767px){
-        .logo{
-            text-align: center; 
-            justify-content: center; 
-            margin-top: 3.0em;
-            margin-bottom: 2.0em;
-        }
-        #resim{
-            max-width: 150px;
-        }
-        .searchbar:hover > .search_input{
-            padding: 0 0px;
-            width: 300px;
-            caret-color:red;
-            color:grey;
-            transition: width 0.4s linear;
-        }
-
-        .searchbar:hover > .search_icon{
-            display: none;
-        }
-
-        .card-margin{
-            margin-bottom: 5px;
-        }
-
-        .card-border{
-            border-radius: 10cm;
-            max-height:140px;
-            line-height: 1.3;
-        }
-        
-        .profile_image{
-            margin:20px 8px;
-            max-width: 117px;
-            max-height: 117px;
-        }
-    
-        .title{
-            font-weight: 700; 
-            font-size: 16pt; 
-            margin-bottom: -0.25rem; 
-            color: #014a83;  
-        }
-    
-        .titleSmall{
-            font-weight: 700; 
-            font-size: 10pt; 
-            margin-bottom: -0.25rem; 
-            color: #014a83;  
-        }
-    
-        .birim{
-            line-height: 0.9;
-            display: none;
-        }
-    
-        .telefon{
-            font-size:14pt;
-            margin-top: 10px;
-        }
-    
-        .dahili{
-            font-weight: bold;
-            font-size: 11pt;
-        }
-    
-        .mail{
-            margin-top:-10px;
-            font-size:12pt;
-        }
-    
-        .mailSmall{
-            margin-top:-15px;
-            font-size:10pt;
-        }
-    
-        .icon{
-            margin-right:10px;
-            color: #014a83;
-        }
-    }
+   
 
     
    
